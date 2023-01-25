@@ -31,3 +31,12 @@ references: https://github.com/aws/aws-iot-device-sdk-js/blob/master/README.md#d
 - AWS_CONFIG_CLIENT_APP_CLIENT_ID="clientId"
 - AWS_CONFIG_CLIENT_APP_SECRET="appSecretKey"
 - COGNITO_USER_POOL_ID="poolId"
+
+## Links references
+
+- https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html
+- https://docs.aws.amazon.com/cognitoidentity/latest/APIReference/API_GetId.html
+- https://github.com/aws/aws-iot-device-sdk-js/blob/master/README.md#device
+- https://docs.aws.amazon.com/cli/latest/reference/iot/index.html#cli-aws-iot
+- https://www.youtube.com/watch?v=j2KJVHGHaFc
+- https://www.youtube.com/watch?v=9pvygKIuCpI
