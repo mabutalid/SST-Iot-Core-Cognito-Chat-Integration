@@ -27,7 +27,7 @@ references: https://github.com/aws/aws-iot-device-sdk-js/blob/master/README.md#d
 
 ## env
 
-AWS_CONFIG_CLIENT_REGION="us-east-1"
-AWS_CONFIG_CLIENT_APP_CLIENT_ID="clientId"
-AWS_CONFIG_CLIENT_APP_SECRET="appSecretKey"
-COGNITO_USER_POOL_ID="poolId"
+- AWS_CONFIG_CLIENT_REGION="us-east-1"
+- AWS_CONFIG_CLIENT_APP_CLIENT_ID="clientId"
+- AWS_CONFIG_CLIENT_APP_SECRET="appSecretKey"
+- COGNITO_USER_POOL_ID="poolId"
