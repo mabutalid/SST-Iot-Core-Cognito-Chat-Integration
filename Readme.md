@@ -8,7 +8,7 @@ Simple Iot Core integration with Cognito as authorizer to be able to pub/sub fro
 2. add user in that user pool
 3. create Iam Policy (pub, sub actions)
 4. attached that policy to role of the authenticated identity of your identity pool
-5. attach principal policy to identity from iot (aws iot attach-policy --target us-east-1:53802f43-4b88-4004-91d8-f958f5d43c83 --policy-name TestPolicy1 --region us-east-1 --profile kroma)
+5. attach principal policy to identity from iot (aws iot attach-policy --target {identityId} --policy-name {policyName} --region us-east-1)
 6. authenticate with that user from your userpool and receive an idToken
 7. exchange that idToken to the Identity Pool (to get temporary aws credentials) (make sure Identity Pool has your user pool as a provider
 8. use that credentials for the aws mqtt client
