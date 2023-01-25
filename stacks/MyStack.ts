@@ -19,6 +19,8 @@ export function MyStack({ stack }: StackContext) {
     }
   });
 
+  // (lacking) need to add iot policy for allowing identities from an identity pool to access iot
+
   func.addPermission('AllowIoTInvoke', {
     principal: new iam.ServicePrincipal('iot.amazonaws.com'),
     sourceArn: iotRule.attrArn,
